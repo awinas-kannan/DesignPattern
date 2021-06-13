@@ -15,7 +15,7 @@ public class PrototypeMain {
 		List<String> list = empsNew.getEmpList();
 		list.add("John");
 		List<String> list1 = empsNew1.getEmpList();
-		list1.remove("Pankaj");
+		list1.remove("Priya");
 
 		System.out.println("emps List: " + emps.getEmpList());
 		System.out.println("empsNew List: " + list);

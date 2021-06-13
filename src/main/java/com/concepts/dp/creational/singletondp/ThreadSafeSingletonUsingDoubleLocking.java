@@ -11,6 +11,7 @@ public class ThreadSafeSingletonUsingDoubleLocking {
 	public static ThreadSafeSingletonUsingDoubleLocking getInstance() {
 		System.out.println("getting ThreadSafeSingletonUsingDoubleLocking Instance");
 		if (instance == null) {
+			System.out.println(" ThreadSafeSingletonUsingDoubleLocking Instance = null ");
 			synchronized (ThreadSafeSingletonUsingDoubleLocking.class) {
 				System.out.println("Checking for null very first time");
 				if (instance == null) {

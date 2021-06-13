@@ -2,7 +2,7 @@ https://www.youtube.com/watch?v=tDxnyop48mY&list=PLsyeobzWxl7r2ZX1fl-7CKnayxHJA_
 Principle of object orienter design patters
 
 1:Prefer Compostion over inheritence
-2: Code for interface not for implementation
+2:Code for interface not for implementation
 
 DP types:
 1:Creation Dp - How the object should be created

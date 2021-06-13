@@ -27,6 +27,7 @@ public class Computer {
 	}
 
 	private Computer(ComputerBuilder builder) {
+		System.out.println("Here ");
 		this.HDD = builder.HDD;
 		this.RAM = builder.RAM;
 		this.isGraphicsCardEnabled = builder.isGraphicsCardEnabled;
